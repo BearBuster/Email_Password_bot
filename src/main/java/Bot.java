@@ -57,7 +57,7 @@ public class Bot extends TelegramLongPollingBot {
 //            }
             sendMsg(message , members_string.toString() );
         }else {
-            s = "Привет " + message.getFrom().getFirstName();
+            s = "Приветствую " + message.getFrom().getFirstName();
             sendMsg(message, s );
         }
     }
